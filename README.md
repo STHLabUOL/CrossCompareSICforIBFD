@@ -3,13 +3,10 @@
 This respository contains the scripts used in [1] for training and evaluating models for digital self-interference cancellation. Note that this includes scripts and code snippets from [\[3\]](https://github.com/abalatsoukas/fdnn).
 
 
-## 1. Datasets and Dependencies
+## 1. Datasets
 
-The synthetic Hammerstein and Wiener data was generated according to [\[2\]](https://github.com/STHLabUOL/SICforIBFD). You can download the actual data used <i>here</i>.
-
-The real data set is made available by the authors as part of the repository [\[3\]](https://github.com/abalatsoukas/fdnn). Please download it and place it into the main directory. 
-
-You may need to modify the paths pointing to the different datasets in <b>config.py</b>.
+The data/ directory contains all three utilized datasets. The synthetic Hammerstein and Wiener data was generated according to [\[2\]](https://github.com/STHLabUOL/SICforIBFD). 
+Meanwhile, the real data was sourced from the author's repository [\[3\]](https://github.com/abalatsoukas/fdnn). 
 
 ## 2. Model Training
 
@@ -17,10 +14,12 @@ Training of the Hammerstein, Wiener and WienerHammerstein model is handled by <b
 
 In the notebooks, you may specify the type of data used, what model architecture to train, and whether or not to include linear preprocessing of the data. Additionally, export of results for later retrieval in <b>summarize_SIC_results.ipynb</b> can be enabled. Upon execution of the notebook, you will be prompted to confirm the data export.
 
-## 3. Review and Comparison
+## 3. SIC Performance Summary
 
 Previously saved results are summarized in <b>summarize_SIC_results.ipynb</b>, together with the comparison of the data's power spectral densities. The default path points to that data of which the results were published in [1].
 
+## 4. Number of Parameters and GMACs Comparison
+Finally, a brief comparison of number of parameters and GMACS between models is carried out in <b>compute_numParams_and_GMACs.ipynb</b>.
 
 ## References
 
