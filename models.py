@@ -203,6 +203,7 @@ class NeuralNetGlobalHammerWiener(tf.keras.Model):
         return {m.name: m.result() for m in self.metrics}   
     
 def FFNN_model(chanLen, nHidden):
+    # See https://github.com/abalatsoukas/fdnn
     inputLayer = Input(shape=(2*chanLen,))
     hidden1 = Dense(nHidden, activation='relu')(inputLayer)
     output1 = Dense(1, activation='linear')(hidden1)
