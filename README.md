@@ -1,13 +1,16 @@
 # Cross-Comparison of Neural Architectures and Data Sets for Digital Self-Interference Modeling
 
-This respository contains the scripts used in [1] for training and evaluating models for digital self-interference cancellation. Note that this includes code snippets, as well as complete scripts sourced from [\[2\]](https://github.com/abalatsoukas/fdnn).
+This respository contains the scripts used in [1] for training and evaluating models for digital self-interference cancellation. Note that this includes code snippets from [\[3\]](https://github.com/abalatsoukas/fdnn), which is also relied on as a dependency.
 
 
 
-## Global Configuration
+## Datasets and Dependencies
 
-Modify <b>config.py</b> to specify paths pointing to the three datasets, real, synthetic-hammerstein, and synthetic-wiener.
+The synthetic Hammerstein and Wiener data was generated according to [\[2\]](https://github.com/STHLabUOL/SICforIBFD). You can download the actual data used <i>here</i>.
 
+The real data set is made available by the authors as part of the repository [\[3\]](https://github.com/abalatsoukas/fdnn). Please download it and place it into the main directory. 
+
+You may need to modify the paths pointing to the different datasets in <b>config.py</b>.
 
 ## Model Training
 
@@ -17,13 +20,14 @@ In the notebooks, you may specify the type of data used, what model architecture
 
 ## Review and Comparison
 
-Previously saved results are summarized in <b>summarize_SIC_results.ipynb</b>, together with the comparison of the data's power spectral densities. This repository includes the data published in [1]. You may configure the path to point to your own export files.
+Previously saved results are summarized in <b>summarize_SIC_results.ipynb</b>, together with the comparison of the data's power spectral densities. The default path points to that data of which the results were published in [1].
 
 
 ## References
 
 [1] G. Enzner, N. Knaepper, A. Chinaev, "Cross-Comparison of Neural Architectures and Data Sets for Digital Self-Interference Modeling", 2025<br>
-[2] A. Balatsoukas-Stimming, "Non-linear digital self-interference cancellation for in-band full-duplex radios using neural networks," in IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), Jun. 2018
+[2] G. Enzner, A. Chinaev, S. Voit, A. Sezgin, "On Neural-Network Representation of Wireless Self-Interference for Inband Full-Duplex Communications", Submitted to IEEE Int. Conf. on Acoust., Speech and Signal Process., 2025<br>
+[3] A. Balatsoukas-Stimming, "Non-linear digital self-interference cancellation for in-band full-duplex radios using neural networks," in IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), Jun. 2018
 
 ## Citation
 If you use this code or our dataset, please cite our paper:
