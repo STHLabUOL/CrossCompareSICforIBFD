@@ -5,8 +5,7 @@ This respository contains the scripts used in [1] for training and evaluating mo
 
 ## 1. Datasets
 
-The data/ directory contains all three utilized datasets. The synthetic Hammerstein and Wiener data was generated according to [\[2\]](https://github.com/STHLabUOL/SICforIBFD). 
-Meanwhile, the real data was sourced from the author's repository [\[3\]](https://github.com/abalatsoukas/fdnn). 
+All three datasets reside in the <i>data/</i> directory. The synthetic Hammerstein and Wiener data was generated according to [\[2\]](https://github.com/STHLabUOL/SICforIBFD), while the real data was sourced from the author's repository [\[3\]](https://github.com/abalatsoukas/fdnn). 
 
 ## 2. Model Training
 
@@ -19,7 +18,7 @@ In the notebooks, you may specify the type of data used, what model architecture
 Previously saved results are summarized in <b>summarize_SIC_results.ipynb</b>, together with the comparison of the data's power spectral densities. The default path points to that data of which the results were published in [1].
 
 ## 4. Number of Parameters and GMACs Comparison
-Finally, a brief comparison of number of parameters and GMACS between models is carried out in <b>compute_numParams_and_GMACs.ipynb</b>.
+Finally, a brief comparison of number of parameters and Giga-Multiply-Accumulate operations (GMACs) between models is carried out in <b>compute_numParams_and_GMACs.ipynb</b>.
 
 ## References
 
