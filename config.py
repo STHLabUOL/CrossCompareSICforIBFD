@@ -1,6 +1,6 @@
-PATH_DATA_REAL = 'fdnn_balatsoukas/data/fdTestbedData20MHz10dBm.mat'#'../data/data_real_balatsoukas'
-PATH_DATA_SYNTH_HAMMERSTEIN = '../data/invNL_invSI_2025_03_18_4QAM_long'
-PATH_DATA_SYNTH_WIENER = '../data/invSI_invNL_wiener_2025_04_10_4QAM'
+PATH_DATA_REAL = 'data/real/fdTestbedData20MHz10dBm.mat'#'../data/data_real_balatsoukas'
+PATH_DATA_SYNTH_HAMMERSTEIN = 'data/hammerstein'
+PATH_DATA_SYNTH_WIENER = 'data/wiener'
 
 
 TOTAL_SIGNAL_LENGTH = 20_400
