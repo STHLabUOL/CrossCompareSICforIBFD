@@ -1,6 +1,6 @@
 # Cross-Comparison of Neural Architectures and Data Sets for Digital Self-Interference Modeling
 
-This respository contains the scripts and notebooks used in [1] for training and evaluating models for digital self-interference cancellation. Note that this includes scripts and code snippets from [\[3\]](https://github.com/abalatsoukas/fdnn).
+This respository contains the scripts and notebooks used in [1] for training and evaluating models for digital self-interference cancellation. This includes scripts and code snippets from [\[3\]](https://github.com/abalatsoukas/fdnn).
 
 The code was developed for Python 3.7.10 and using Tensorflow 2.4.0. You can use <b>py_environment.yml</b> to recreate our python environment. Note, however, that this may include some dependencies that are not strictly needed in the context of this project.
 
