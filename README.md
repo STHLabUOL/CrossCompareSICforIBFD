@@ -11,6 +11,7 @@ All three datasets reside in the <i>data/</i> directory. As explained in [1], th
 
 | Parameter | Value |
 | -------- | ------- |
+| NumFiles | 1 |
 | cfgHT.MCS | 2 |
 | cfgHT.PSDULength | 4*1000 |
 | parSigs.SINR_dB_awgn | 62 |
