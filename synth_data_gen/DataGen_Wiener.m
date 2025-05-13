@@ -39,7 +39,7 @@ clear variables; clc; close all
 strings.datetime_start = string(datetime('now')); fprintf(strings.datetime_start); fprintf('\n');
 
 %% Some simalation variables
-NumFiles = 10;          % number of files per dataset
+NumFiles = 1;          % number of files per dataset
 flags.save_mat = 0;     % flag for saving the .mat-files (0 not save, 1 save)
 flags.plot_fig = 0;     % flag for visualization of the control variables
 
