@@ -23,7 +23,7 @@ All three datasets reside in the <i>data/</i> directory. As explained in [1], th
 
 For convenience, this repository includes the Matlab scripts from [\[2\]](https://github.com/STHLabUOL/SICforIBFD) with the appropriate modifications already applied in the directory <i>synth_data_gen/</i>.
 
-Each dataset consists of a single file. In the available scripts for training and testing, signals in this file are split into training and test sets using a ratio of 90:10.
+Each dataset consists of a single file. In the available scripts for data processing, the signals from this file are split into training and test sets with a ratio of 90:10.
 
 
 ## 2. Model Training
